@@ -41,6 +41,10 @@ syntax on
 
 " map Ctrl-L to be nohl, clear search highlight
 nnoremap <c-l> :nohl<cr>
+nnoremap <c-a> gg"*yG
+nnoremap <c-t> :w<cr>
+nnoremap <c-w> :q<cr>
+nnoremap <c-d> dd
 
 " close tag
 let g:closetag_html_style=1
